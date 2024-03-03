@@ -6,47 +6,62 @@ sites:
   - name: Infra Uplink
     url: $UPLINK_DOMAIN
     check: "tcp-ping" # Not a real ICMP ping, but a TCP ping to the port. Must be fixed in the future
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/cloud_upload.svg
   - name: Server - Bastion ssh
     url: $PORTFOLIO_DOMAIN
     port: 2222
     check: "tcp-ping"
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/server.svg
 
   - name: k8s - Cluster API
     url: api.k8s.$INFRA_DOMAIN
     port: 6443
     check: "tcp-ping"
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg
   - name: k8s - Argocd
     url: https://argocd.k8s.$INFRA_DOMAIN
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/argocd.svg
   - name: k8s - Ops View
     url: https://k8s.$INFRA_DOMAIN
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg
   - name: k8s - WebView
     url: https://view.k8s.$INFRA_DOMAIN  
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg
 
   - name: k8s - S3
     url: https://s3.k8s.$INFRA_DOMAIN
     expectedStatusCodes:
       - 403
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/s3.svg
   - name: k8s - Vault
     url: https://vault.k8s.$INFRA_DOMAIN
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/vault.png
 
   - name: k8s - Master node
     url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_MASTER_ID#
-    __dangerous__body_down: NotReady 
+    __dangerous__body_down: NotReady
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg
   - name: k8s - Node 1
     url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_1_ID#
-    __dangerous__body_down: NotReady 
+    __dangerous__body_down: NotReady
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg
   - name: k8s - Node 2
     url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_2_ID#
-    __dangerous__body_down: NotReady 
+    __dangerous__body_down: NotReady
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg
 
   - name: App - Dev Site
     url: https://$DEV_SITE_DOMAIN
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/blog.svg
   - name: App - Portfolio
     url: https://$PORTFOLIO_DOMAIN
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/blog.svg
   - name: App - Portfolio2
     url: https://$PORTFOLIO2_DOMAIN
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/blog.svg
   - name: App - Cloud
     url: https://$CLOUD_DOMAIN
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/cloud.svg
 
 
 assignees:
