@@ -35,7 +35,7 @@ sites:
     icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/s3.svg
   - name: k8s - Vault
     url: https://vault.k8s.$INFRA_DOMAIN
-    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/vault.png
+    icon: https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/vault.svg
 
   - name: k8s - Master node
     url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_MASTER_ID#
