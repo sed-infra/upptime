@@ -17,6 +17,9 @@ sites:
     check: "tcp-ping"
     ipv6: true
 
+assignees:
+  - cedricfarinazzo
+
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -26,6 +29,8 @@ status-website:
   name: SedInfra Upptime
 #  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
 #  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  theme: dark
+  robotsText: "User-agent: * \n Disallow: /"
   navbar:
     - title: Status
       href: /
