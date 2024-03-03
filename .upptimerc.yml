@@ -3,19 +3,51 @@ owner: sed-infra # Your GitHub organization or username, where this repository l
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site 2
-    url: https://thissitedoesnotexist2.koj.co
-  - name: IPv6 test 3
-    url: forwardemail3.net
-    port: 80
+  - name: Infra Uplink
+    url: $UPLINK_DOMAIN
+    check: "tcp-ping" # Not a real ICMP ping, but a TCP ping to the port. Must be fixed in the future
+  - name: Server - Bastion ssh
+    url: $PORTFOLIO_DOMAIN
+    port: 2222
     check: "tcp-ping"
-    ipv6: true
+
+  - name: k8s - Cluster API
+    url: api.k8s.$INFRA_DOMAIN
+    port: 6443
+    check: "tcp-ping"
+  - name: k8s - Argocd
+    url: https://argocd.k8s.$INFRA_DOMAIN
+  - name: k8s - Ops View
+    url: https://k8s.$INFRA_DOMAIN
+  - name: k8s - WebView
+    url: https://view.k8s.$INFRA_DOMAIN  
+
+  - name: k8s - S3
+    url: https://s3.k8s.$INFRA_DOMAIN
+    expectedStatusCodes:
+      - 403
+  - name: k8s - Vault
+    url: https://vault.k8s.$INFRA_DOMAIN
+
+  - name: k8s - Master node
+    url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_MASTER_ID#
+    __dangerous__body_down: NotReady 
+  - name: k8s - Node 1
+    url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_1_ID#
+    __dangerous__body_down: NotReady 
+  - name: k8s - Node 2
+    url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_2_ID#
+    __dangerous__body_down: NotReady 
+
+  - name: App - Dev Site
+    url: https://$DEV_SITE_DOMAIN
+  - name: App - Portfolio
+    url: https://$PORTFOLIO_DOMAIN
+  - name: App - Portfolio2
+    url: https://$PORTFOLIO2_DOMAIN
+  - name: App - Cloud
+    url: https://$CLOUD_DOMAIN
+
 
 assignees:
   - cedricfarinazzo
