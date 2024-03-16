@@ -22,19 +22,19 @@
     "url": "$PORTFOLIO_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/server.svg",
     "slug": "server-bastion-ssh",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 108,
-    "timeDay": 132,
-    "timeWeek": 105,
-    "timeMonth": 108,
-    "timeYear": 108,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "99.68%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
+    "time": 107,
+    "timeDay": 112,
+    "timeWeek": 103,
+    "timeMonth": 107,
+    "timeYear": 107,
     "dailyMinutesDown": {
-      "2024-03-16": 0
+      "2024-03-16": 5
     }
   },
   {
@@ -180,7 +180,7 @@
     "timeMonth": 243,
     "timeYear": 243,
     "dailyMinutesDown": {
-      "2024-03-16": 1413,
+      "2024-03-16": 1417,
       "2024-03-15": 1440,
       "2024-03-14": 1440,
       "2024-03-13": 1440,
