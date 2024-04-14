@@ -4,18 +4,20 @@
     "url": "$UPLINK_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/cloud_upload.svg",
     "slug": "infra-uplink",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.45%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.99%",
     "time": 106,
     "timeDay": 135,
     "timeWeek": 98,
     "timeMonth": 107,
     "timeYear": 106,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 8
+    }
   },
   {
     "name": "Server - Bastion ssh",
@@ -40,126 +42,140 @@
     "url": "api.k8s.$INFRA_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg",
     "slug": "k8s-cluster-api",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.54%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 106,
     "timeDay": 135,
     "timeWeek": 95,
     "timeMonth": 106,
     "timeYear": 106,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 7
+    }
   },
   {
     "name": "k8s - Argocd",
     "url": "https://argocd.k8s.$INFRA_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/argocd.svg",
     "slug": "k8s-argocd",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.58%",
+    "uptimeWeek": "99.94%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 421,
     "timeDay": 512,
     "timeWeek": 403,
     "timeMonth": 430,
     "timeYear": 421,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 6
+    }
   },
   {
     "name": "k8s - Ops View",
     "url": "https://k8s.$INFRA_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg",
     "slug": "k8s-ops-view",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.62%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 463,
     "timeDay": 582,
     "timeWeek": 453,
     "timeMonth": 438,
     "timeYear": 463,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 5
+    }
   },
   {
     "name": "k8s - WebView",
     "url": "https://view.k8s.$INFRA_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg",
     "slug": "k8s-web-view",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.66%",
+    "uptimeWeek": "99.95%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 685,
     "timeDay": 747,
     "timeWeek": 618,
     "timeMonth": 674,
     "timeYear": 685,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 5
+    }
   },
   {
     "name": "k8s - S3",
     "url": "https://s3.k8s.$INFRA_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/s3.svg",
     "slug": "k8s-s3",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.69%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 394,
     "timeDay": 468,
     "timeWeek": 413,
     "timeMonth": 407,
     "timeYear": 394,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 4
+    }
   },
   {
     "name": "k8s - Vault",
     "url": "https://vault.k8s.$INFRA_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/vault.svg",
     "slug": "k8s-vault",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.73%",
+    "uptimeWeek": "99.96%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 497,
     "timeDay": 580,
     "timeWeek": 446,
     "timeMonth": 498,
     "timeYear": 497,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 4
+    }
   },
   {
     "name": "k8s - Master node",
     "url": "https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_MASTER_ID#",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg",
     "slug": "k8s-master-node",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.77%",
+    "uptimeWeek": "99.97%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 248,
     "timeDay": 297,
     "timeWeek": 227,
     "timeMonth": 253,
     "timeYear": 248,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 3
+    }
   },
   {
     "name": "k8s - Node 1",
@@ -178,7 +194,7 @@
     "timeMonth": 254,
     "timeYear": 248,
     "dailyMinutesDown": {
-      "2024-04-14": 106,
+      "2024-04-14": 649,
       "2024-04-13": 1440,
       "2024-04-12": 1440,
       "2024-04-11": 1440,
@@ -228,28 +244,30 @@
     "url": "https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_2_ID#",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/kubernetes.svg",
     "slug": "k8s-node-2",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
+    "uptimeDay": "99.84%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.99%",
     "uptimeYear": "100.00%",
     "time": 141,
     "timeDay": 164,
     "timeWeek": 128,
     "timeMonth": 142,
     "timeYear": 141,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 2
+    }
   },
   {
     "name": "App - Dev Site",
     "url": "https://$DEV_SITE_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/blog.svg",
     "slug": "app-dev-site",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.88%",
+    "uptimeWeek": "99.98%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 381,
@@ -257,17 +275,19 @@
     "timeWeek": 339,
     "timeMonth": 389,
     "timeYear": 381,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 2
+    }
   },
   {
     "name": "App - Portfolio",
     "url": "https://$PORTFOLIO_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/blog.svg",
     "slug": "app-portfolio",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.91%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 494,
@@ -275,17 +295,19 @@
     "timeWeek": 463,
     "timeMonth": 500,
     "timeYear": 494,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 1
+    }
   },
   {
     "name": "App - Portfolio2",
     "url": "https://$PORTFOLIO2_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/blog.svg",
     "slug": "app-portfolio2",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1006,
@@ -293,16 +315,18 @@
     "timeWeek": 885,
     "timeMonth": 1016,
     "timeYear": 1006,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 1
+    }
   },
   {
     "name": "App - Cloud",
     "url": "https://$CLOUD_DOMAIN",
     "icon": "https://raw.githubusercontent.com/sed-infra/upptime/master/assets/sites/cloud.svg",
     "slug": "app-cloud",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -311,6 +335,8 @@
     "timeWeek": 1268,
     "timeMonth": 1288,
     "timeYear": 1287,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-04-14": 0
+    }
   }
 ]
