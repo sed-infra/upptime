@@ -1,7 +1,7 @@
 url: https://s3.k8s.$INFRA_DOMAIN
 status: up
 code: 403
-responseTime: 339
-lastUpdated: 2024-04-14T14:22:25.714Z
+responseTime: 375
+lastUpdated: 2024-04-14T23:57:21.172Z
 startTime: 2024-03-03T16:18:06.464Z
 generator: Upptime <https://github.com/upptime/upptime>
