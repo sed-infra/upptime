@@ -1,7 +1,7 @@
 url: https://vault.k8s.$INFRA_DOMAIN
 status: up
 code: 200
-responseTime: 382
-lastUpdated: 2024-05-06T23:10:44.654Z
+responseTime: 485
+lastUpdated: 2024-05-07T23:09:39.478Z
 startTime: 2024-03-03T16:18:07.194Z
 generator: Upptime <https://github.com/upptime/upptime>
