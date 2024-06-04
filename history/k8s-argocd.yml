@@ -1,7 +1,7 @@
 url: https://argocd.k8s.$INFRA_DOMAIN
 status: up
 code: 200
-responseTime: 354
-lastUpdated: 2024-06-03T23:12:24.197Z
+responseTime: 549
+lastUpdated: 2024-06-04T23:12:21.935Z
 startTime: 2024-03-03T16:18:04.045Z
 generator: Upptime <https://github.com/upptime/upptime>
