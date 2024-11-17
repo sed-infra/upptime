@@ -1,7 +1,7 @@
 url: https://$PORTFOLIO2_DOMAIN
-status: down
-code: 502
-responseTime: 1361
-lastUpdated: 2024-11-17T17:14:41.438Z
+status: up
+code: 200
+responseTime: 1054
+lastUpdated: 2024-11-17T17:30:01.675Z
 startTime: 2024-03-03T16:18:11.540Z
 generator: Upptime <https://github.com/upptime/upptime>
