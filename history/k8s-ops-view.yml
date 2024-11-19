@@ -1,7 +1,7 @@
 url: https://k8s.$INFRA_DOMAIN
 status: up
 code: 200
-responseTime: 377
-lastUpdated: 2024-11-18T23:13:08.072Z
+responseTime: 374
+lastUpdated: 2024-11-19T23:13:05.985Z
 startTime: 2024-03-03T16:18:04.719Z
 generator: Upptime <https://github.com/upptime/upptime>
