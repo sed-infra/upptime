@@ -1,7 +1,7 @@
 url: https://$CLOUD_DOMAIN
 status: down
 code: 500
-responseTime: 422
-lastUpdated: 2024-11-22T23:14:21.584Z
+responseTime: 348
+lastUpdated: 2024-11-23T23:13:02.809Z
 startTime: 2024-03-03T16:18:12.777Z
 generator: Upptime <https://github.com/upptime/upptime>
