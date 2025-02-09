@@ -1,7 +1,7 @@
 url: https://view.k8s.$INFRA_DOMAIN/clusters/local/nodes?filter=Name%3D$K8S_NODE_1_ID#
 status: down
 code: 200
-responseTime: 234
-lastUpdated: 2025-02-08T23:13:25.768Z
+responseTime: 240
+lastUpdated: 2025-02-09T23:12:15.221Z
 startTime: 2024-03-03T16:18:08.607Z
 generator: Upptime <https://github.com/upptime/upptime>
